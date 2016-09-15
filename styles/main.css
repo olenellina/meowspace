@@ -1,18 +1,19 @@
 /** { border: black 1px solid;}*/
 
-#top-cats {
-  display: inline-block;
+body {
   border: 2px solid black;
-  float: right;
-  margin-top:125px;
-  margin-right: 20px;
-  text-align: center;
+}
+
+header {
+  border-bottom: 2px solid black;
+  padding-left: 20px;
+  background-color: aliceblue;
+  padding-top: 15px;
 }
 
 header ul {
   position: relative;
   margin-left: 80%;
-
 }
 
 header li {
@@ -24,13 +25,6 @@ header h1 {
   margin-top: 0px;
 }
 
-header {
-  border-bottom: 2px solid black;
-  padding-left: 20px;
-  background-color: aliceblue;
-  padding-top: 15px;
-}
-
 article {
   border-top: 2px solid black;
   border-left: 2px solid black;
@@ -39,10 +33,9 @@ article {
   padding: 20px;
 }
 
-body {
-  border: 2px solid black;
+article:nth-of-type(6) {
+  border-bottom: 2px black solid;
 }
-
 
 footer {
   border-top: 2px solid black;
@@ -63,11 +56,6 @@ footer nav {
   float: right;
 }
 
-#disclaimer {
-  display: inline-block;
-  width: 65%
-}
-
 footer li {
   display: inline-block;
   padding: 10px;
@@ -83,17 +71,23 @@ aside section {
   padding: 10px;
 }
 
-article:nth-of-type(6) {
-  border-bottom: 2px black solid;
-}
-
-#top {
-  padding-left: 20px;
-}
-
 img:first-of-type {
     display: block;
     margin: 0 auto;
+}
+
+.post-info {
+  border: 2px solid black;
+  text-align: center;
+}
+
+#top-cats {
+  display: inline-block;
+  border: 2px solid black;
+  float: right;
+  margin-top:125px;
+  margin-right: 20px;
+  text-align: center;
 }
 
 #top-cats img {
@@ -107,10 +101,15 @@ img:first-of-type {
   text-align: center;
 }
 
-.post-info {
-  border: 2px solid black;
-  text-align: center;
+#disclaimer {
+  display: inline-block;
+  width: 65%
 }
+
+#top {
+  padding-left: 20px;
+}
+
 
 
 
