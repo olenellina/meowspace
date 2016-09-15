@@ -93,9 +93,10 @@ h1 {
 }
 
 .post-img {
-  width: 30%;
   text-align: center;
   padding-bottom: 1%;
+  width: 30%;
+  height: 225px;
 }
 
 .post-content img:first-of-type {

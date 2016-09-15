@@ -79,6 +79,13 @@ footer li {
   background-color: aliceblue;
 }
 
+.post-img {
+  text-align: center;
+  padding-bottom: 1%;
+  width: 30%;
+  height: 225px;
+}
+
 .head-image {
   width: 90%;
 }
