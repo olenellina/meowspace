@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Meowspace</title>
+    <LINK REL=StyleSheet HREF="styles/main.css" TYPE="text/css" MEDIA=screen>
   </head>
   <body>
     <header>
@@ -16,12 +17,14 @@
     </header>
 
     <main>
+      <div id="top">
       <h1> Kitty Korner </h1>
       <h2> News for Cats </h2>
+    </div>
       <article>
         <h2> The Cat's Pajamas </h2>
         <h3> By: <a href="profiles/slyvester.html"> Slyvester </a></h3>
-        <p>Posted on <time datetime="2016-09-04T16:31:24+02:00"> September 4th 2016</time> by <a href="profiles/slyvester.html">Slyvester</a> - <a href="#comments">16 comments</a></p>
+        <p class="post-info">Posted on <time datetime="2016-09-04T16:31:24+02:00"> September 4th 2016</time> by <a href="profiles/slyvester.html">Slyvester</a> - <a href="#comments">16 comments</a></p>
         <section class="post-content">
           <img src="http://placekitten.com/500/400" alt="kitten">
           <p>
@@ -38,7 +41,7 @@
       <article>
         <h2> Whisker Lickin' Good! </h2>
         <h3> By: <a href="profiles/bonkers.html"> Bonkers </a></h3>
-        <p> Posted on <time  datetime="2016-08-24T16:31:24+02:00">August 24th 2016</time> by <a href="profiles/bonkers.html"> Bonkers </a> - <a href="#comments">60 comments</a></p>
+        <p class="post-info"> Posted on <time  datetime="2016-08-24T16:31:24+02:00">August 24th 2016</time> by <a href="profiles/bonkers.html"> Bonkers </a> - <a href="#comments">60 comments</a></p>
         <section class="post-content">
           <img src="http://placekitten.com/500/300" alt="kitten">
           <p>
@@ -55,7 +58,7 @@
       <article>
         <h2> Meow Mixer </h2>
         <h3> By: <a href="#patches"> Patches </a></h3>
-        <p> Posted on <time  datetime="2016-06-14T16:31:24+02:00">June 14th 2016</time> by <a href="#patches"> Patches </a> - <a href="#comments">133 comments</a></p>
+        <p class="post-info"> Posted on <time  datetime="2016-06-14T16:31:24+02:00">June 14th 2016</time> by <a href="#patches"> Patches </a> - <a href="#comments">133 comments</a></p>
         <section class="post-content">
           <img src="http://placekitten.com/500/300" alt="kitten">
           <p>
@@ -68,10 +71,11 @@
             I'm getting hungry eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk then retire to the warmest spot on the couch to claw at the fabric before taking a catnap leave fur on owners clothes for find empty spot in cupboard and sleep all day, so meow for food, then when human fills food dish, take a few bites of food and continue meowing or unwrap toilet paper. Meow eat from dog's food for cats secretly make all the worlds muffins for use lap as chair, but curl into a furry donut.
           </p>
         </section>
+      </article>
         <article>
           <h2> Cat Tails </h2>
           <h3> By: <a href="#bonkers"> Bonkers </a></h3>
-          <p> Posted on <time  datetime="2016-05-04T16:31:24+02:00" title="">May 4th 2016</time> by <a href="#bonkers"> bonkers</a> - <a href="#comments">633 comments</a></p>
+          <p class="post-info"> Posted on <time  datetime="2016-05-04T16:31:24+02:00" title="">May 4th 2016</time> by <a href="#bonkers"> bonkers</a> - <a href="#comments">633 comments</a></p>
           <section class="post-content">
             <img src="http://placekitten.com/500/300" alt="kitten">
             <p>
@@ -88,7 +92,7 @@
         <article>
           <h2> Meaner Meow </h2>
           <h3> By: <a href="#smokey"> Smokey </a></h3>
-          <p> Posted on <time  datetime="2015-04-22T16:31:24+02:00" title="">July 22nd 2015</time> by <a href="#smokey"> Smokey </a> - <a href="#comments">6 comments</a></p>
+          <p class="post-info"> Posted on <time  datetime="2015-04-22T16:31:24+02:00" title="">July 22nd 2015</time> by <a href="#smokey"> Smokey </a> - <a href="#comments">6 comments</a></p>
           <section class="post-content">
             <img src="http://placekitten.com/500/300" alt="kitten">
             <p>
@@ -105,7 +109,7 @@
         <article>
           <h2> Yule Furr Ball </h2>
           <h3> By: <a href="#astrid"> Astrid </a></h3>
-          <p> Posted on <time  datetime="2015-02-13T16:31:24+02:00" title="">February 13th 2015</time> by <a href="#astrid"> Astrid </a> - <a href="#comments">6522 comments</a></p>
+          <p class="post-info"> Posted on <time  datetime="2015-02-13T16:31:24+02:00" title="">February 13th 2015</time> by <a href="#astrid"> Astrid </a> - <a href="#comments">6522 comments</a></p>
           <section class="post-content">
             <img src="http://placekitten.com/500/300" alt="kitten">
             <p>
@@ -119,7 +123,7 @@
             </p>
           </section>
         </article>
-      </article>
+         </main>
       <aside id="top-cats">
         <h2> Top Cats </h2>
         <section>
@@ -132,14 +136,13 @@
           <img src="http://placekitten.com/100/100" alt="profile photo">
           <p>Member since <time  datetime="2010-01-04T16:31:24+02:00" title="">January 4th 2010</time> with <a href="#comments">495 comments</a> </p>
         </section>
-      </aside>
       <section>
         <h3> Marcy </h3>
         <img src="http://placekitten.com/100/100" alt="profile photo">
         <p>Member since <time  datetime="2010-10-30T16:31:24+02:00" title="">October 30th 2010</time> with <a href="#comments">466 comments</a> </p>
       </section>
     </aside>
-    </main>
+
       <footer>
         <h4> &copy; 2016 </h4>
         <p id="disclaimer"> Meowspace is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date. </p>
